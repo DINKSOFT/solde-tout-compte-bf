@@ -280,7 +280,7 @@ const SoldeToutCompteBF = () => {
     doc.setFont('helvetica', 'normal');
     doc.text(`Nom : ${resultat.nomSalarie}`, 14, yPos);
     yPos += 6;
-    doc.text(`Période : ${new Date(resultat.dateDebut).toLocaleDateString('fr-FR')} → ${new Date(resultat.dateFin).toLocaleDateString('fr-FR')}`, 14, yPos);
+    doc.text(`Période : Du ${new Date(resultat.dateDebut).toLocaleDateString('fr-FR')} au ${new Date(resultat.dateFin).toLocaleDateString('fr-FR')}`, 14, yPos);
     yPos += 6;
     doc.text(`Ancienneté : ${resultat.anciennete.mois} mois (${Math.round(resultat.anciennete.annees * 100) / 100} années)`, 14, yPos);
     yPos += 12;
