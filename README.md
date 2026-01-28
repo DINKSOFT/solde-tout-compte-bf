@@ -127,4 +127,3 @@ Ce projet est fourni à titre indicatif. Consultez un expert RH ou juridique pou
 ---
 
 **Développé avec ❤️ pour le Burkina Faso 🇧🇫**
-"# solde-tout-compte-bf" 
